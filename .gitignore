@@ -1,7 +1,6 @@
 
 # FVM Version Cache
 .fvm/
-.dill/
-.stamp/
-.d/
-.filecache
+.dart_tool/
+.idea/
+.windows/

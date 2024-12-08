@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:htoe_test/presentation/theme/custom_colors.dart';
+import 'package:htoe_test/presentation/widgets/instagram_bottom.dart';
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HomeAppBar({super.key});
@@ -23,10 +24,15 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
         ),
       ],
-      style: TextStyle(fontSize: 50),
+      style: TextStyle(fontSize: 30),
     ),
   ),
-    backgroundColor: CustomColors.backgroundColor,);
+    backgroundColor: CustomColors.backgroundColor,
+    actions: const [
+      InstagramBottom()
+    ],
+    iconTheme: const IconThemeData(color: Colors.white),
+    );
   }
 
   // 必須プロパティ: AppBar の高さを指定
