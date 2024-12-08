@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:htoe_test/presentation/pages/home/home_app_bar.dart';
-import 'package:htoe_test/presentation/theme/color_theme.dart';
+import 'package:htoe_test/presentation/theme/custom_colors.dart';
+import 'package:htoe_test/presentation/widgets/common_navigation_bar.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -8,10 +9,11 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      appBar: const HomeAppBar(),
+      appBar: HomeAppBar(),
       body: Center(child: Text("テスト表示"),),
+      bottomNavigationBar: CommonNavigationBar(),
     
-        backgroundColor: ColorTheme.backgroundColor,
+        backgroundColor: CustomColors.backgroundColor,
     );
   }
 }
