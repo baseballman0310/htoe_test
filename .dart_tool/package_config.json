@@ -164,6 +164,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "riverpod",
+      "rootUri": "file:///Users/gsaito/.pub-cache/hosted/pub.dev/riverpod-2.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/gsaito/fvm/versions/3.24.3/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -180,6 +186,12 @@
       "rootUri": "file:///Users/gsaito/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "state_notifier",
+      "rootUri": "file:///Users/gsaito/.pub-cache/hosted/pub.dev/state_notifier-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "stream_channel",
@@ -242,7 +254,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-11-21T14:49:34.181466Z",
+  "generated": "2024-12-08T07:23:23.039433Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///Users/gsaito/fvm/versions/3.24.3",

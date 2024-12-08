@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:htoe_test/presentation/pages/home.dart';
+import 'package:htoe_test/presentation/pages/home/home.dart';
 
 void main() {
   runApp(const MyApp());
